@@ -15,4 +15,7 @@ Meu treinamento seguindo o vídeo Karate Tutorial-S#2 - Karate Framework from Sc
 - STAPI is written in Java, with tests written in Groovy.
 - Clients are available in several languages.
 
+### Swagger
+https://stapi.co/api/v1/rest/common/download/stapi.yaml
+
 

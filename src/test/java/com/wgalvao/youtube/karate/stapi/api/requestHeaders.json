@@ -1,0 +1,14 @@
+{
+  "Host": [
+    "stapi.co"
+  ],
+  "Connection": [
+    "Keep-Alive"
+  ],
+  "User-Agent": [
+    "Apache-HttpClient/4.5.13 (Java/11.0.8)"
+  ],
+  "Accept-Encoding": [
+    "gzip,deflate"
+  ]
+}
