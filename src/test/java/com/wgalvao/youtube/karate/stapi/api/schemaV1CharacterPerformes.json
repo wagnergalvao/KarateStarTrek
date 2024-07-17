@@ -1,0 +1,23 @@
+{
+  "uid": "#string",
+  "name": "#string",
+  "birthName": "##string",
+  "gender": "#string",
+  "dateOfBirth": "##string",
+  "placeOfBirth": "##string",
+  "dateOfDeath": "##string",
+  "placeOfDeath": "##string",
+  "animalPerformer": "#boolean",
+  "disPerformer": "#boolean",
+  "ds9Performer": "#boolean",
+  "entPerformer": "#boolean",
+  "filmPerformer": "#boolean",
+  "standInPerformer": "#boolean",
+  "stuntPerformer": "#boolean",
+  "tasPerformer": "#boolean",
+  "tngPerformer": "#boolean",
+  "tosPerformer": "#boolean",
+  "videoGamePerformer": "#boolean",
+  "voicePerformer": "#boolean",
+  "voyPerformer": "#boolean"
+}

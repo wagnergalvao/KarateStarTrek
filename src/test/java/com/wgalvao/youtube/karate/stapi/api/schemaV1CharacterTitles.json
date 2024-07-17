@@ -1,0 +1,9 @@
+{
+  "uid": "#string",
+  "name": "#string",
+  "militaryRank": "#boolean",
+  "fleetRank": "#boolean",
+  "religiousTitle": "#boolean",
+  "position": "#boolean",
+  "mirror": "#boolean"
+}

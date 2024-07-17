@@ -1,5 +1,7 @@
 # KarateStarTrek
-Meu treinamento seguindo o vídeo Karate Tutorial-S#2 - Karate Framework from Scratch, Create Test Runner, Execute and Verify Reports https://www.youtube.com/watch?v=FiMLw2rBOj4
+Meu treinamento em Karate: \
+https://www.youtube.com/watch?v=FiMLw2rBOj4 \
+https://www.youtube.com/watch?v=rqHMWat5gJ4
 
 # Welcome to STAPI, a Star Trek API!
 ### But what is it, really?

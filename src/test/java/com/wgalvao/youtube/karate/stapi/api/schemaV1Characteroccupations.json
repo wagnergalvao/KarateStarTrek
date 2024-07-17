@@ -1,0 +1,7 @@
+{
+  "uid": "#string",
+  "name": "#string",
+  "legalOccupation": "#boolean",
+  "medicalOccupation": "#boolean",
+  "scientificOccupation": "#boolean"
+}

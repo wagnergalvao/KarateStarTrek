@@ -1,0 +1,6 @@
+{
+  "uid": "#string",
+  "name": "#string",
+  "numerator": "#number",
+  "denominator": "#number"
+}
