@@ -44,3 +44,19 @@ Feature: Listar dados dos personagens
       | CHMA0000111295 | Hikaru Kato Sulu         |
       | CHMA0000003172 | Pavel Andreyevich Chekov |
       | CHMA0000068639 | Nyota Uhura              |
+
+  Scenario: Listar a ultima pagina com setenta e um de cem personagens
+    And def schemaV1Character = read('schemaV1Character.json')
+    And def schemaV1CharacterPage = read('schemaV1CharacterSearch.json')
+    And params {pageNumber: 75}
+    And params {pageSize: 100}
+    And path '/search'
+    When method get
+    Then status 200
+    And match karate.prevRequest.headers == apiRequestHeaders
+    And match karate.response.headers contains apiResponseHeaders
+    And match karate.response.body == schemaV1CharacterPage
+    And match karate.response.body.page.numberOfElements == 71
+    And match karate.response.body.page.lastPage == true
+    And match karate.response.body.characters.length == 71
+    And print karate.response.body
